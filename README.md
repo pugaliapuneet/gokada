@@ -39,7 +39,6 @@ To quickly understand the model relationships I have coded inside.
 
 #### Waypoint
 1. Belongs to an Order
-2. Belongs to a Driver through an Order
 3. Belongs to a recipient
 4. Has one status
 
