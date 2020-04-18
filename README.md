@@ -1,6 +1,6 @@
 # gokada code challenge
 
-#### Assertions for unit and feature testing
+### Assertions for unit and feature testing
 
 Starting with a list of assertions for TDD.
 
@@ -25,9 +25,9 @@ Starting with a list of assertions for TDD.
 3. an_order_has_a_driver
 4. an_order_estimates_must_match_sum_of_waypoints_estimates
  
+---
 
-
-#### Model Relationships summary 
+### Model Relationships summary 
 
 To quickly understand the model relationships I have coded inside.
 
