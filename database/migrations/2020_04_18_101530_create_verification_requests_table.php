@@ -24,6 +24,7 @@ class CreateVerificationRequestsTable extends Migration
             $table->timestamps();
 
             $table->unique(['ext', 'phone_number']);
+            $table->index('is_verified');
         });
     }
 

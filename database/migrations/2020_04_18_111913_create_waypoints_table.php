@@ -33,6 +33,10 @@ class CreateWaypointsTable extends Migration
             $table->decimal('estimated_price', 10, 2);
 
             $table->timestamps();
+
+            $table->index('order_id');
+            $table->index('recipient_id');
+            $table->index('status_id');
         });
     }
 

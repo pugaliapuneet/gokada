@@ -31,6 +31,11 @@ class CreateOrdersTable extends Migration
             $table->integer('status_id')->unsigned();
 
             $table->timestamps();
+
+
+            $table->index('user_id');
+            $table->index('driver_id');
+            $table->index('status_id');
         });
     }
 
