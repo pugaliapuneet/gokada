@@ -25,6 +25,9 @@ class CreateUsersTable extends Migration
             $table->string('ext', 10);
 
             $table->timestamps();
+
+
+            $table->unique(['ext', 'phone_number']);
         });
     }
 

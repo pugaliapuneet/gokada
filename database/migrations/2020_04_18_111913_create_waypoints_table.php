@@ -21,9 +21,9 @@ class CreateWaypointsTable extends Migration
 
             $table->text('parcel_description');
 
-            $table->varchar('pickup_latlong', 300);
+            $table->varchar('pickup_latlong', 128);
             $table->varchar('pickup_address', 300);
-            $table->varchar('dropoff_latlong', 300);
+            $table->varchar('dropoff_latlong', 128);
             $table->varchar('dropoff_address', 300);
 
             $table->integer('status_id')->unsigned();

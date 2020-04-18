@@ -22,6 +22,8 @@ class CreateVerificationRequestsTable extends Migration
             $table->dateTime('expires_at');
 
             $table->timestamps();
+
+            $table->unique(['ext', 'phone_number']);
         });
     }
 
