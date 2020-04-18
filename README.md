@@ -1,6 +1,6 @@
 # gokada code challenge
 
-### Assertions for unit and feature testing
+## Assertions for unit and feature testing
 
 Starting with a list of assertions for TDD.
 
@@ -27,7 +27,7 @@ Starting with a list of assertions for TDD.
  
 ---
 
-### Model Relationships summary 
+## Model Relationships summary 
 
 To quickly understand the model relationships I have coded inside.
 
