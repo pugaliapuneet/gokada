@@ -16,9 +16,3 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
-//save verification requests from user
-Route::post('verificationrequests', 'VerificationRequest@store');
-
-//update status of verification request
-Route::put('verificationrequests/{verificationrequest}', 'VerificationRequest@mark_verified');
