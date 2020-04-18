@@ -56,6 +56,14 @@ To quickly understand the model relationships I have coded inside.
 
 ---
 
+## Some guesswork was done
+
+1. For saving latlong I have used varchar to save a csv string like "22.5056838,88.3326459" instead of using 2 decimal types. This is mostly for convenience but we can maintain individual decimal fields for the lat and long if required as well.
+
+2. I didn't know how to present certain behaviours for the test like sending notifications to drivers for open deliveries, so have created an endpoint for it.
+
+---
+
 ## Future interest
 
 1. Would be a good idea to have a separate table for storing latlong-address-user_id-number_of_requests mapping in a table for recording past addresses searched. This would be useful in auto suggesting frequently used addressed by a user. Haven’t implemented this part as it’s not asked for/suggested in the design screens.
