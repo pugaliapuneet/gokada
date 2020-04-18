@@ -53,3 +53,9 @@ To quickly understand the model relationships I have coded inside.
 #### WaypointStatus
 #### OrderStatus
 #### VerificationRequest
+
+---
+
+## Future interest
+
+1. Would be a good idea to have a separate table for storing latlong-address-user_id-number_of_requests mapping in a table for recording past addresses searched. This would be useful in auto suggesting frequently used addressed by a user. Haven’t implemented this part as it’s not asked for/suggested in the design screens.
